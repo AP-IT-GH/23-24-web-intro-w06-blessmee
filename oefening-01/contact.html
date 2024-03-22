@@ -138,34 +138,50 @@
                     <article class="mb-3 col">
                         <label for="land" class="koffiebruin">kies een land *</label>
                         <select id="inputState" class="form-select" name="land">
-                            <option value="België">België</option>
-                            <option value="Nederland">Nederland</option>
-                            <option value="Frankrijk">Frankrijk</option>
+                        <option value="België">België</option>
+                        <option value="Nederland">Nederland</option>
+                        <option value="Frankrijk">Frankrijk</option>
+                        <option value="Duitsland">Duitsland</option>
+                        <option value="Luxemburg">Luxemburg</option>
+                        <option value="Verenigd Koninkrijk">Verenigd Koninkrijk</option>
                         </select><br><br>
                         </article>
                     </article>
    
                    </fieldset>
                    <fieldset>
-                    <legend class="koffiebruin">accountgegevens</legend>
-                    <article class="row">
-                    <article class="mb-3 col">
-                    <label for="email" class="koffiebruin">email *</label>
-                    <input type="email" class="form-control" id="email" name="email"><br><br>
-                    </article>
-                    </article>
+                    <legend class="koffiebruin">koffie-achtergrond</legend>
 
                     <article class="row">
-                    <article class="mb-3 col">
-                    <label for="password" class="koffiebruin">paswoord *</label>
-                    <input type="password" class="form-control" id="password" name="password" placeholder="min 8 karakters, 1 cijfer, 1 hoofdletter" aria-label="min 8 karakters, 1 cijfer, 1 hoofdletter"><br><br>
+                        <article class="mb-3 col">
+                        <label for="land" class="koffiebruin">ik koop</label>
+                        <select id="inputState" class="form-select" name="keuze">
+                        <option value="koffiebonen">koffiebonen</option>
+                        <option value="gemalen koffie">gemalen koffie</option>
+                        <option value="oploskoffie">oploskoffie</option>
+                        </select><br><br>
+                        </article>
+                        <article class="mb-3 col">
+                        <label for="koffiekeuze" class="koffiebruin">ik ben fan van</label>
+                        <select id="inputState" class="form-select" name="koffiesoort">
+                        <option value="Illy">Illy</option>
+                        <option value="Lavazza">Lavazza</option>
+                        <option value="Starbucks">Starbucks</option>
+                        <option value="Gran Maestro Italiano">Gran Maestro Italiano</option>
+                        <option value="Celeeste d'Oro">Celeeste d'Oro</option>
+                        </select><br><br>
+                        </article>
                     </article>
-                    <article class="mb-3 col">
-                    <label for="password" class="koffiebruin">bevestig passwoord</label>
-                    <input type="password" class="form-control" id="password" name="password"><br><br>
+                    <article class="row">
+                        <article>
+                            <label for="customRange3" class="form-label koffiebruin">Hoe tevreden ben je van ons?</label>
+                            <input type="range" class="form-range" min="0" max="10" step="1" id="customRange3">
+                        </article>
+
                     </article>
+                    <article>
+                        <button type="submit" class="btn btn-primary">verzenden</button>
                     </article>
-   
                    </fieldset>
                </form>
 
